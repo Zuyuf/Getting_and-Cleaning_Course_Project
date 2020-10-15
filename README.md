@@ -38,12 +38,9 @@ To perform the data analysis it is required to perform the following **steps**:
 
 *  **Download and Unzip** the data package by clicking at the following url:
     [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]()
-    or by sourcing the `downloadata.R` w/ the command:
-    
-        source("./downloadata.R")
 
-    This R script will download the data package, and it will store the 
-    downloaded package into a `dataset.zip` file located into the `datasets`
+    Step One of  run_analysis.R script will download the data package, and it will store the 
+    downloaded package into a `dataset.zip` file located into the `rawdata`
     folder.
     
 * **Source** the `run_analysis.R` script: 
@@ -61,7 +58,6 @@ To perform the data analysis it is required to perform the following **steps**:
 
   After performing the analysis, the following files will be created:
 
-    - `merged_and_cleaned_dataset.txt` (*corresponding to a `10299x68` data frame*)
     - `tidy_dataset_with_average_values.txt` (*corresponding to a `180x68` data frame*)
     
 
